@@ -17,6 +17,7 @@
     /* background: white; */
     background-attachment: fixed;
     /* letter-spacing: -1px; */
+    overflow: hidden;
 }
 
 .navbar a {
@@ -160,7 +161,7 @@ h3, .infop {
     height: 10px;
     background: linear-gradient(110deg, #f1b510, transparent);
     position: relative;
-    left: 174px;
+    left: 100%;
     top: -17px;
 }
 
@@ -171,7 +172,7 @@ h3, .infop {
     height: 10px;
     background: linear-gradient(-110deg, #f1b510, transparent);
     position: relative;
-    right: 175px;
+    right:100%;
     top: 19px;
 }
 
@@ -263,25 +264,4 @@ h3, .infop {
     }
     
 
-.heading h4::after {
-    display: block;
-    content: '';
-    /* width: 500px; */
-    height: 10px;
-    background: linear-gradient(110deg, #f1b510, transparent);
-    position: relative;
-    left: 360px;
-    top: -27px;
-}
-
-.heading h4::before {
-    display: block;
-    content: '';
-    /* width: 500px; */
-    height: 10px;
-    background: linear-gradient(-110deg, #f1b510, transparent);
-    position: relative;
-    right: 365px;
-    top: 39px;
-}
 }
